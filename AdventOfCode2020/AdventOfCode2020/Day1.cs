@@ -18,7 +18,7 @@ namespace AdventOfCode2020
             inputs.Sort();
         }
 
-        public int firstTask()
+        public int FirstTask()
         {
             foreach(int i in inputs)
             {
@@ -29,7 +29,7 @@ namespace AdventOfCode2020
             return result;
         }
 
-        public int secondTask()
+        public int SecondTask()
         {
             foreach (int i in inputs)
             {
