@@ -32,7 +32,7 @@ namespace AdventOfCode2020
         static void Main(string[] args)
         {
 
-            Day3 task = new Day3(returnInput());
+            Day4 task = new Day4(returnInput());
             Console.WriteLine(task.FirstTask());
             Console.WriteLine(task.SecondTask());
         }
